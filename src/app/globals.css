@@ -143,7 +143,7 @@ button:disabled {
 }
 @media (max-width: 767px) {
   main {
-    padding: 0 1.4rem;
+    padding: 0 1rem;
   }
   nav {
     height: 32vw;
@@ -155,13 +155,13 @@ button:disabled {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.4rem; 
+    gap: 1rem; 
   }
   .item {
     text-align: center;
     background-color: #fff;
     border-radius: .25rem;
-    padding: 1rem 0;
+    padding: 0 0 1rem 0;
     line-height: 1.8rem;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
   }
@@ -170,13 +170,15 @@ button:disabled {
     padding: 0;
   }
   .item h3 {
-    font-size: 3vw;
+    font-size: 3.2vw;
     letter-spacing: 0.1em;
-    padding-bottom: .2rem;
- 
+    line-height: 0;
+  }
+  .item_txt {
+    margin-top: .6rem;
   }
   .item_txt p {
-    font-size: 2.2vw;
+    font-size: 2.4vw;
     line-height: 1.6em;
     letter-spacing: 0.075em;
   }
