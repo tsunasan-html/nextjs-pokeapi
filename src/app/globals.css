@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(236, 236, 231);
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid rgb(162, 141, 105); 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #333;
+  color: rgb(249, 249, 249);
+  height: 16vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+h2 {
+  font-size: 3.2vw;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+main {
+  flex: 1 1 auto;
+  padding: 0 6rem;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem; 
+}
+
+.item {
+  text-align: center;
+  background-color: #fff;
+  border-radius: .25rem;
+  padding: 1rem 0;
+  line-height: 1.8rem;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.item h3 {
+  font-size: 1.4vw;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding-bottom: .3rem;
+  padding-top: 0;
+  margin-top: 0;
+  color: rgb(162, 141, 105);
+}
+
+.item_txt p {
+  font-size: 1vw;
+  font-family: "Yu Gothic", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+  line-height: 2em;
+  letter-spacing: 0.075em;
+  color: #333;
+}
+
+.btn {
+  margin: 7.5vw auto 21vw;
+  display: flex;
+  justify-content: center;
+}
+.btn button {
+  width: 18vw;
+  height: 5vw;
+  line-height: 5vw;
+  font-size: 1.3vw;
+  color: rgb(236, 236, 231);
+  background-color: rgb(162, 141, 105);
+  letter-spacing: 0.1em;
+  margin: 0 2rem;
+  text-align: center;
+  border-radius: .25rem;
+  transition: 0.3s;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  cursor: pointer;
+}
+.btn button:hover {
+  opacity: .8;
+}
+
+.btn button:disabled {
+  color: rgb(236, 236, 231);
+  background-color: rgb(162, 141, 105);
+  cursor: not-allowed;
+  opacity: 0.4; 
+}
+
+
+button:disabled {
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 767px) {
+  main {
+    padding: 0 1.4rem;
+  }
+  nav {
+    height: 32vw;
+    margin-bottom: 3rem;
+  }
+  h2 {
+    font-size: 4.4vw;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem; 
+  }
+  .item {
+    text-align: center;
+    background-color: #fff;
+    border-radius: .25rem;
+    padding: 1rem 0;
+    line-height: 1.8rem;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+  .item_img img {
+    margin: 0;
+    padding: 0;
+  }
+  .item h3 {
+    font-size: 3vw;
+    letter-spacing: 0.1em;
+    padding-bottom: .2rem;
+ 
+  }
+  .item_txt p {
+    font-size: 2.2vw;
+    line-height: 1.6em;
+    letter-spacing: 0.075em;
+  }
+  .btn {
+    margin: 2.8rem auto 35vw;
+    display: flex;
+    justify-content: center;
+  }
+  .btn button {
+    width: 100%;
+    height: 9.5vw;
+    line-height: 9.5vw;
+    font-size: 2.2vw;
+    font-weight: 700;
+  }
+  .btn button:nth-of-type(1) {
+    margin-right: .7rem;
+  }
+  
+  .btn button:nth-of-type(2) {
+    margin-left: .7rem;
+  }
+}
+
+
+
+
+
+
