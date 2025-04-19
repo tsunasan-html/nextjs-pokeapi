@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(236, 236, 231);
+  background-color: #f3f0eb;
 }
 
 .spinner {
@@ -25,7 +25,7 @@ body {
 }
 
 nav {
-  background-color: #333;
+  background-color: #3a3a3a;
   color: rgb(249, 249, 249);
   height: 16vw;
   display: flex;
@@ -35,7 +35,7 @@ nav {
 }
 
 h2 {
-  font-size: 3.2vw;
+  font-size: 3vw;
   letter-spacing: 0.1em;
   text-align: center;
 }
@@ -76,7 +76,7 @@ main {
   font-family: "Yu Gothic", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
   line-height: 2em;
   letter-spacing: 0.075em;
-  color: #333;
+  color: #3a3a3a;
 }
 
 .btn {
@@ -139,6 +139,14 @@ button:disabled {
 @media (min-width: 768px) and (max-width: 1024px) {
   main {
     padding: 0 2rem;
+  }
+  .item h3 {
+    font-size: 1.6vw;
+  }
+  
+  .item_txt p {
+    font-size: 1.2vw;
+
   }
 }
 @media (max-width: 767px) {
