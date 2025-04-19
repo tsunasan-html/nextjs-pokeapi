@@ -14,6 +14,9 @@ export default async function Home() {
     <>
       <Nav />
       <main>
+        <p className="main_p">
+          You can find all Pokémon on this page.
+        </p>
         <PokemonClient initialData={pokemonData} />
       </main>
     </>
