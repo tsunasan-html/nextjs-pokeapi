@@ -50,6 +50,7 @@ main {
   font-size: 1.3vw;
   font-weight: 500;
   margin-bottom: 5rem;
+  letter-spacing: 0.1em;
 }
 
 
@@ -174,7 +175,7 @@ button:disabled {
     font-size: 4.6vw;
   }
   .main_p {
-    font-size: 3vw;
+    font-size: 2.8vw;
     margin-bottom: 3rem;
   }
   .grid {
