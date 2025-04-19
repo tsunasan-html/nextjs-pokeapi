@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <nav>
-      <h2>Pokemon Encyclopedia</h2>
+      <h2>Pokémon Encyclopedia</h2>
     </nav>
   )
 }
