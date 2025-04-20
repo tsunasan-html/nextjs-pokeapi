@@ -172,10 +172,12 @@ main {
   .item h3 {
     font-size: 3vw;
     letter-spacing: 0.1em;
-    line-height: 0;
+    line-height: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
   }
-  .item_txt {
-    margin-top: .6rem;
+  .item_txt  {
+    margin-top: .3rem;
   }
   .item_txt p {
     font-size: 2.4vw;
