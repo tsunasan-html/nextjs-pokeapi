@@ -94,10 +94,6 @@ main {
   line-height: 1.3em;
 }
 
-.item_txt  {
-  margin-top: .1em;
-}
-
 .item_txt p {
   font-size: 1vw;
   font-family: "Yu Gothic", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
@@ -171,7 +167,7 @@ main {
     text-align: center;
     background-color: #fff;
     border-radius: .25rem;
-    padding: 0 0 1rem 0;
+    padding: .2em 0 1em 0;
     line-height: 1.8rem;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
   }
