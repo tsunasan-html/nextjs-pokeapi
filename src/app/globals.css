@@ -123,6 +123,9 @@ main {
   .grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+  .item_txt {
+    margin-top: .2em;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
