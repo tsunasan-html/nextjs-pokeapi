@@ -68,6 +68,11 @@ main {
   line-height: 1.8rem;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
 }
+@media (max-width: 768px) {
+  .item {
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.15); 
+  }
+}
 
 .item h3 {
   font-size: 1.4vw;
@@ -218,8 +223,8 @@ main {
   }
 
   .pagination button {
-    padding: 1rem 2rem;
-     font-size: 1.8vw;
+    padding: .5rem 1rem;
+    font-size: 4vw;
     border: 1px solid #ddd;
   }
   .mobile-pagination span {
@@ -227,7 +232,8 @@ main {
     color: #3a3a3a;
     display: inline-block;
     margin: 0 .2rem;
-    padding: .8rem 1.8rem;
+    font-size: 3.8vw;
+    padding: .5rem 1rem;
     border-radius: .25rem;
   }
 }
