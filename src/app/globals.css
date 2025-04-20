@@ -89,6 +89,13 @@ main {
   padding-top: 0;
   margin-top: 0;
   color: rgb(162, 141, 105);
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.3em;
+}
+
+.item_txt  {
+  margin-top: .1em;
 }
 
 .item_txt p {
@@ -166,19 +173,15 @@ main {
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
   }
   .item_img img {
-    margin: 0;
-    padding: 0;
+    display: block;
+    margin: 0 auto;
   }
   .item h3 {
     font-size: 3vw;
     letter-spacing: 0.1em;
-    line-height: 1.2rem;
     width: 80%;
-    margin: 0 auto;
   }
-  .item_txt  {
-    margin-top: .3rem;
-  }
+
   .item_txt p {
     font-size: 2.4vw;
     line-height: 1.6em;
